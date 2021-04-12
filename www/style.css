@@ -1,0 +1,105 @@
+body{
+  background-color : #e6e6e6;
+}
+
+h1{
+  text-align: center;
+  margin:0px;
+  font-size: 18px;
+  padding:10px;
+}
+
+h2{
+  text-indent: 10px;
+  font-size: 15px;
+  margin:0px;
+  padding:8px;
+}
+
+h4{
+  text-indent: 20px;
+  font-size: 12px;
+  margin : 0px;
+  padding:15px;
+}
+
+.input{
+  color : #e6e6e6;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px 10px 10px 10px;
+  background-color : #005ce6;
+  padding:5px;
+  margin-bottom : 10px;
+}
+
+.input_1{
+  padding : 0px;
+  padding-left : 20px;
+}
+
+.row_1{
+  padding:5px;
+  margin:10px;
+  background-color : #3385ff;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.fInput{
+  height: 80px;
+  color : black;
+  font-style: italic;
+}
+
+.output{
+  border-color : #005ce6;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px 10px 10px 10px;
+  border:2px solid #005ce6;
+  padding : 10px;
+  background-color : #e6e6e6;
+  /*height : 600px;*/
+}
+
+.tOutput{
+  overflow-x: scroll;
+  margin : 10px;
+  background-color : white;
+}
+
+#header{
+  margin-right : 20px;
+  margin-left : 200px;
+  margin-bottom : 0px;
+  font-size: 85%;
+  width : 1680px;
+  background-color : white;
+}
+
+#header td{
+  width : 130px;
+}
+
+.dOutput{
+  overflow-y: scroll;
+  height : 490px;
+  width : 1900px;
+  background-color : white;
+}
+
+#TdB td{
+  width : 130px;
+}
+
+#TdB td:nth-child(2){
+  background-color : #ff8080;
+}
+
+#TdB td:nth-child(11), #TdB td:nth-child(15){
+  background-color : #70db70;
+}
+
+.titleSortie{
+  color : #005ce6;
+}
