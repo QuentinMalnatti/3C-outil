@@ -2,7 +2,7 @@ my_packages <- c("shinyWidgets","xlsx","tidyverse","reshape2","openxlsx","matlab
 not_installed <- my_packages[!(my_packages %in% installed.packages()[ , "Package"])] 
 if(length(not_installed)) install.packages(not_installed) 
 
-source("X:/ERMIOS/3C TERRITOIRE/OUTIL BILAN/functions.R", encoding = "UTF-8", local=TRUE)
+source("functions.R", encoding = "UTF-8", local=TRUE)
 source("fct_BA_App.R", encoding = "UTF-8", local=TRUE)
 source("fct_Organe_App.R", encoding = "UTF-8", local=TRUE)
 source("fct_ARS_App.R", encoding = "UTF-8", local=TRUE)
