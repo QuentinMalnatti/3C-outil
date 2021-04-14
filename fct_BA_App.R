@@ -1,4 +1,4 @@
-source("X:/ERMIOS/3C TERRITOIRE/OUTIL BILAN/functions.R", encoding = "UTF-8", local=TRUE)
+source("functions.R", encoding = "UTF-8", local=TRUE)
 
 library(openxlsx)
 library(matlab)
