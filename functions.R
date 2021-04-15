@@ -1,4 +1,4 @@
-library(xlsx)
+library(utils)
 library(tidyverse)
 library(reshape2)
 
@@ -101,9 +101,9 @@ open_CSVfile <- function(path,file_name=NULL,quote = TRUE){
 }
 
 #### ecrire dans un fichier Excel
-write_XLfile <- function(data,file_name,sheet_name="sheet1",col_name=FALSE,row_name=FALSE,append=FALSE){
-  write.xlsx(data,file=file_name,sheetName=sheet_name,col.names=col_name,row.names=row_name,append=append)
-}
+# write_XLfile <- function(data,file_name,sheet_name="sheet1",col_name=FALSE,row_name=FALSE,append=FALSE){
+#   write.xlsx(data,file=file_name,sheetName=sheet_name,col.names=col_name,row.names=row_name,append=append)
+# }
 
 #### ecrire dans un fichier CSV
 write_CSVfile <- function(data,file_name,row_name=FALSE){
