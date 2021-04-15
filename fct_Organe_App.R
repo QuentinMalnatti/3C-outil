@@ -1,6 +1,6 @@
 source("functions.R", encoding = "UTF-8", local=TRUE)
+
 library(Hmisc)
-library(xlsx)
 
 list_spe <- c('Dig','Gyn','Uro')
 
