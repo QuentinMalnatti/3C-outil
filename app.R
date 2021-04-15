@@ -1,4 +1,4 @@
-my_packages <- c("shinyWidgets","xlsx","tidyverse","reshape2","openxlsx","matlab","Hmisc")
+my_packages <- c("shinyWidgets","utils","tidyverse","reshape2","matlab","Hmisc")
 not_installed <- my_packages[!(my_packages %in% installed.packages()[ , "Package"])] 
 if(length(not_installed)) install.packages(not_installed) 
 
