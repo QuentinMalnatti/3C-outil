@@ -1,9 +1,7 @@
 source("functions.R", encoding = "UTF-8", local=TRUE)
 
-library(openxlsx)
 library(matlab)
 library(dplyr)
-library(tidyverse)
 library(tibble)
 library(lubridate)
 
